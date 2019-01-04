@@ -15,6 +15,10 @@ import java.util.List;
 
 public class ChooseFileActionListener implements ActionListener{
 
+    /**
+     * 监听事件
+     * @param e
+     */
     public void actionPerformed(ActionEvent e) {
         JFileChooser jfc = new JFileChooser();
         jfc.setFileSelectionMode(JFileChooser.FILES_ONLY);
